@@ -1,0 +1,10 @@
+create database temp1;
+USE temp1;
+CREATE TABLE student(
+id INT PRIMARY KEY,
+name VARCHAR(50),
+age INT NOT NULL
+);
+INSERT INTO student VALUES(1,"AYUSHI",20);
+INSERT INTO student VALUES(2,"AKSHAY",20);
+SELECT * FROM STUDENT;
